@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="javascript" href="chatbot.js">
+
+
+</head>
+<body>
+	<div class="monish">
+		<h1>Ask your Question??</h1>
+		<h2> ask some Question??</h2>
+		
+		<div class="input">
+			<input type="text" id="userBox" onkeydown="if(event.keyCode == 13){talk()}" placeholder="text your Question"/>
+		</div>
+		
+		<p id="chatLog"> Answer Appearing Hear</p>
+		
+	</div>
+	
+	
+	
+</body>
+</html>
